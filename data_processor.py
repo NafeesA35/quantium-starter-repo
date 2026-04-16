@@ -16,7 +16,6 @@ for file in input_files:
     
 
     data["price"] = data["price"].str.replace('$', '').astype(float)
-    
     data["sales"] = data["quantity"] * data["price"]
     
 
